@@ -1,0 +1,21 @@
+[package]
+name = "GuessingGame"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rand = "0.8.5"
+eframe = "0.31.0"
+egui = "0.31.0"
+rusqlite = "0.30.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+bcrypt = "0.17.0" 
+log = "0.4"
+env_logger = "0.11"
+
+[package.metadata.bundle]
+name = "GuessingGame"
+identifier = "com.yourname.guessinggame"
+#icon = ["assets/icon.png"]  # Optional
+category = "Games"
